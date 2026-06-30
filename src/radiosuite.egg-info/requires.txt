@@ -1,0 +1,8 @@
+requests
+pandas
+openpyxl
+
+[dev]
+pytest
+ruff
+black
