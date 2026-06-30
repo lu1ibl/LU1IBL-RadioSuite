@@ -1,0 +1,42 @@
+Output Freq,Input Freq,Offset,Uplink Tone,Downlink Tone,Call,"Location",County,State,Modes,Digital Access
+53.500000,52.50000,,,,CX3AXX,"Montevideo - Cordon",,Uruguay,FM ,
+144.870000,145.47000,,,,CX1TXX,"La Paloma - Ruta 10 and Ruta 15",,Uruguay,FM ,
+145.330000,144.73000,,88.5,,CX2FXX,"Colonia del Sacramento - Tarariras",,Uruguay,FM ,
+145.355000,144.75500,,88.5,,CX7TXX,"Rocha",,Uruguay,FM ,
+145.500000,144.90000,,,,CX8CXX,"Montevideo",,Uruguay,DMR ,1
+146.355000,146.95500,,82.5,,CX2TXX,"Rocha - Hipodromo",,Uruguay,FM ,
+146.610000,146.610000,x,136.5,136.5,CX6BXX,"Montevideo - Cerro de Montevideo",,Uruguay,FM EchoLink ,
+146.630000,146.03000,,82.5,,CX5DXX,"Solymar - Bajada 20",,Uruguay,FM EchoLink ,
+146.640000,146.04000,,82.5,,CX3SXX,"Minas - Paraje Cerro Pelado",,Uruguay,FM ,
+146.720000,146.12000,,82.5,,CX4SXX,"Minas - Cerro Pelado Chico",,Uruguay,FM ,
+146.730000,146.13000,,82.5,,CX3FXX,"Colonia del Sacramento",,Uruguay,FM ,
+146.790000,146.19000,,,,CX1FXX,"Colonia del Sacramento - Nueva Helvecia",,Uruguay,FM ,
+146.820000,146.22000,,82.5,,CX1RXX,"Punta del Este - Dedos",,Uruguay,FM ,
+146.910000,146.31000,,82.5,,CX5CXX,"Montevideo - Obelisco",,Uruguay,FM EchoLink ,
+146.925000,146.32500,,82.5,,CX4DXX,"Canelones",,Uruguay,FM ,
+147.000000,146.40000,,82.5,,CX3DXX,"Juanico",,Uruguay,FM EchoLink ,
+147.060000,147.66000,,,,CX2PXX,"Rivera",,Uruguay,FM ,
+147.090000,147.69000,,82.5,82.5,CX2RXX,"Piriapolis, Maldonado - Cerro San Antonio",,Uruguay,FM ,
+147.150000,147.75000,,100.0,,CX6DXX,"Las Piedras",,Uruguay,FM EchoLink ,
+147.180000,147.78000,,82.5,82.5,CX4RXX,"San Carlos - Ruta 9 km 151",,Uruguay,FM ,
+147.210000,147.81000,,82.5,,CX9CXX,"Montevideo - Cordon",,Uruguay,FM ,
+147.240000,147.84000,,82.5,82.5,CX1AXX,"Montevideo - Cerro de Montevideo",,Uruguay,FM ,
+147.360000,147.96000,,82.5,,CX2CXX,"Montevideo - Malvin",,Uruguay,FM ,
+224.700000,223.10000,,82.5,,CX4FXX,"Colonia del Sacramento",,Uruguay,FM ,
+432.150000,437.15000,,,,CX9BXX,"Montevideo",,Uruguay,DMR ,1
+432.250000,437.25000,,82.5,,CX8BXX,"Montevideo - Cordon",,Uruguay,FM ,
+432.400000,437.40000,,82.5,,CX2BXX,"Montevideo",,Uruguay,FM Fusion WIRES-X ,
+432.425000,437.42500,,,,CX9SXX,"Minas",,Uruguay,DMR ,1
+432.450000,437.45000,,,,CX3TXX,"Rocha - La Rural",,Uruguay,FM ,
+432.500000,437.50000,,,,CX9TXX,"Rocha",,Uruguay,DMR ,1
+432.550000,437.55000,,,,CX8DXX,"Las Piedras",,Uruguay,DMR ,1
+432.600000,437.60000,,,,CX6TXX,"Castillos",,Uruguay,FM ,
+432.650000,437.65000,,,,CX8TXX,"Rocha - Hipodromo",,Uruguay,FM ,
+432.725000,437.72500,,82.5,,CX4FXX,"Colonia del Sacramento",,Uruguay,FM EchoLink ,
+432.800000,437.80000,,82.5,,CX1BXX,"Montevideo - Union",,Uruguay,FM ,
+432.825000,437.82500,,,,CX7DXX,"Ciudad de la Costa - Solymar",,Uruguay,DMR ,1
+432.850000,437.85000,,88.5,,CX2FXX,"Colonia del Sacramento - Tarariras",,Uruguay,FM ,
+432.850000,437.85000,,,,CX4TXX,"La Paloma - Ruta 10 y Ruta 15",,Uruguay,FM DMR Fusion ,1
+432.875000,437.87500,,100.0,,CX2DXX,"Las Piedras",,Uruguay,FM DMR EchoLink ,1
+432.925000,437.92500,,82.5,,CX6CXX,"Montevideo - Pocitos",,Uruguay,FM DMR ,1
+432.950000,147.93000,,,,CX1SXX,"Minas - Cerro Verdún",,Uruguay,Fusion ,

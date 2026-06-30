@@ -11,9 +11,12 @@ from __future__ import annotations
 from radiosuite.config import CONFIG
 from radiosuite.project import Project
 from radiosuite.version import VERSION
+from radiosuite.core.module_loader import ModuleLoader
 
 
 def banner() -> None:
+    """Muestra el banner de la aplicación."""
+
     print()
     print("=" * 60)
     print(" LU1IBL RadioSuite")
@@ -24,6 +27,7 @@ def banner() -> None:
 
 
 def main() -> int:
+    """Punto de entrada principal."""
 
     banner()
 
@@ -31,7 +35,26 @@ def main() -> int:
 
     project.logger.info("Configuración cargada.")
     project.logger.info("Proyecto creado.")
-    project.logger.info("Sin módulos cargados.")
+
+    loader = ModuleLoader()
+
+    modules = loader.load()
+
+    project.logger.info(f"Módulos encontrados: {len(modules)}")
+
+    for module in modules:
+
+        project.logger.info(f"Inicializando módulo: {module.name}")
+
+        module.initialize(project)
+
+        project.logger.info(f"Ejecutando módulo: {module.name}")
+
+        module.run(project)
+
+        project.logger.info(f"Finalizando módulo: {module.name}")
+
+        module.finish(project)
 
     print()
     print("Estado")
@@ -41,7 +64,9 @@ def main() -> int:
     print(f"Versión    : {VERSION.short}")
     print(f"Repetidoras: {len(project.repeaters)}")
     print(f"Ciudades   : {len(project.cities)}")
+    print(f"Módulos    : {len(modules)}")
     print()
+
     print("RadioSuite inicializada correctamente.")
     print()
 

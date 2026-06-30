@@ -29,9 +29,4 @@ class Version:
         return f"{self.short} ({self.codename})"
 
 
-VERSION = Version(
-    major=0,
-    minor=1,
-    patch=0,
-    codename="RS-001 Foundation"
-)
+VERSION = Version(major=0, minor=1, patch=0, codename="RS-001 Foundation")
